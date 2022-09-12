@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/ajay117/interactive-rating-component-main](https://github.com/ajay117/interactive-rating-component-main)
-- Live Site URL: [https://your-live-site-url.com](https://your-live-site-url.com)
+- Live Site URL: [https://ajay117.github.io/interactive-rating-component-main/](https://ajay117.github.io/interactive-rating-component-main/)
 
 ## My process
 
