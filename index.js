@@ -1,6 +1,6 @@
 let userRating;
-let ratingsPara = document.querySelectorAll(".ratings p");
-let submitButton = document.querySelector("button");
+let ratingsPara = document.querySelectorAll(".ratings button");
+let submitButton = document.querySelector(".submit");
 let ratingsParaArr = Array.from(ratingsPara);
 
 ratingsParaArr.forEach((item) => {

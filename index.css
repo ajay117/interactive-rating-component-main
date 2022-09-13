@@ -46,7 +46,7 @@ h1 {
   color: var(--white);
 }
 
-button {
+.submit {
   font-family: inherit;
   width: 100%;
   padding: 15px 0;
@@ -61,7 +61,7 @@ button {
 
 .container,
 .container__thankyou {
-  width: 375px;
+  max-width: 375px;
   border: 1px solid black;
   border-radius: 15px;
   padding: 20px;
@@ -80,11 +80,12 @@ button {
   justify-content: space-between;
 }
 
-.ratings p,
+.ratings button,
 .icon {
   padding: 15px 20px;
   border-radius: 50%;
   background-color: hsla(216, 12%, 54%, 0.3);
+  border-style: none;
 }
 
 .icon {
@@ -96,7 +97,7 @@ button {
 }
 
 button,
-.ratings p {
+.ratings button {
   transition: all 0.2s ease;
   cursor: pointer;
 }
@@ -116,17 +117,16 @@ button,
   border-radius: 30px;
 }
 
-p.clicked {
+button.clicked {
   background-color: hsl(217,8%,63%);
   color: var(--white);
 }
-
-button:active {
+.submit:active {
   background-color: var(--white);
   color: var(--orange);
 }
 
-.ratings p:active {
+.ratings button:active {
   background-color: var(--orange);
   color: var(--white);
 }
